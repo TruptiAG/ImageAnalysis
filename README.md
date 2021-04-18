@@ -21,11 +21,17 @@ Description for the notebook files and folders:
 
  
  
-Folder Structure
-.
-+-- Experiment Name
-|   +-- mask
-|   +-- pp1
-|   +-- labelled_images
-|   +-- csvs
-+-- _graphs
+    Folder Structure for experiments
+    .
+    ├── Experiment Name
+     ├── mask                  # mask images
+     ├── pp1                    # channel images
+     ├── labelled_images        # labelled and overlay images
+     ├── csvs                   # particle analysis csv files
+  
+  
+ 
+
+
+
+
