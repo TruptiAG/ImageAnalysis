@@ -3,7 +3,7 @@
 
 ## Image Processing Methods to Automatically Track Intensity Changes In Submicron-sized Cellular Structures
 
-We present an image analysis workflow starting with image segmentation and particle analysis. The workflow we propose is likely to be useful for tracking and measuring changes in submicron structures in microscopy.
+This is an image analysis workflow starting with image segmentation and particle analysis. This workflow is likely to be useful for tracking and measuring changes in submicron structures in microscopy.
 
 
 Description for the notebook files and folders:
@@ -24,8 +24,8 @@ Description for the notebook files and folders:
     Folder Structure for experiments
     .
     ├── Experiment Name
-     ├── mask                  # mask images
-     ├── pp1/channel           # channel images
+     ├── mask                  # mask images(.tif)
+     ├── pp1/channel           # channel images (.tif)
      ├── labelled_images       # labelled and overlay images
      ├── csvs                  # particle analysis csv files
   
