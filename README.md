@@ -25,9 +25,9 @@ Description for the notebook files and folders:
     .
     ├── Experiment Name
      ├── mask                  # mask images
-     ├── pp1                    # channel images
-     ├── labelled_images        # labelled and overlay images
-     ├── csvs                   # particle analysis csv files
+     ├── pp1/channel           # channel images
+     ├── labelled_images       # labelled and overlay images
+     ├── csvs                  # particle analysis csv files
   
   
  
