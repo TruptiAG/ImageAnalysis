@@ -14,10 +14,11 @@ Description for the notebook files and folders:
  | Analysis-Method1.ipynb     | Notebook     |Measures PP1 intensity in CDKi and DMSO Cells,generates graphs and csv files for particles measurements 
  | Analysis-Method2.ipynb     | Notebook     |Measures Astrin intensity in WildType and Q1012,generates graphs and csv files for particles measurement 
  | graphs                     | folder       |generated graphs
- | Experiment Name            | folder       | This folder contains following subfolders
+ | Experiment Name            | folder       |Experiment folder.It has following subfolders. 
  | mask                       | folder       |tif images of masks
  | pp1 /channel               | folder       |tif images of the channel 
  | labelled _images           | folder       |generated and labelled images
+ | AnalysisResults            | folder       |for Graphs and csvs
 
  
  
@@ -27,7 +28,13 @@ Description for the notebook files and folders:
      ├── mask                  # mask images(.tif)
      ├── pp1/channel           # channel images (.tif)
      ├── labelled_images       # labelled and overlay images
-     ├── csvs                  # particle analysis csv files
+     
+     Folder Structure for AnalysisResults
+    .
+    ├── Experiment Name
+     ├── graphs                # to save the graphs
+     ├── csvs                  # for generated csvs
+     
   
   
  
